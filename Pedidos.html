@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <ul>
+        <li><a href="Principal.html">Principal</a></li>
+        <li><a href="Productos.html">Productos</a></li>
+        <li><a href="Pedidos.html">Pedidos</a></li>
+    </ul>
+    <h1>Pedido</h1>
+<form action="Respuesta.html" method="get">
+<h2>Información del cliente</h2>
+<p>Nombre del cliente:<input type="text" name="vnombre" id="nombre" placeholder="Escriba  nombre" required maxlength="30"></p>
+
+<p>Domicilio:<textarea name="vdom" id="idnom" cols="30" rows="4"></textarea></p>
+
+<p>Teléfono:<input type="text" name="vtel" id="idtel" placeholder="Escrinba telefono" required max="10"></p>
+
+<h2>Información del Producto</h2>
+<p>Producto
+    <select name="vprod" id="idprod">
+        <option value="Miel">Miel</option>
+        <option value="Miel con canela">Miel con canela</option>
+        <option value="Miel co propóleo">Miel con propóleo</option>
+    </select>
+</p>
+
+<p>Unidades:<input type="text" name="vcant" id="idcant" required placeholder="Escriba la cantidad"></p>
+
+
+<p><input type="submit" value="Enviar"><input type="reset" value="Borrar"></p>
+
+</form>
+
+
+</body>
+</html>
